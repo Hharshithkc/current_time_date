@@ -1,0 +1,270 @@
+#main
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box1
+{
+    background-color: aqua;
+    height: 450px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    border:3px  solid black;
+}   
+
+#date
+{
+    height: 80px;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 40px;
+    text-align: center;
+}
+
+#time
+{
+    height: 80px;
+    width: 400px;
+   border-radius: 10px;
+    border: 2px solid black;
+    font-size: 40px;
+    text-align: center;
+}
+h1
+{
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+
+@media(min-width:300px) and (max-width: 400px)
+{
+
+#box1
+{
+    background-color:aqua;
+    height: 450px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    border:3px  solid black;
+}   
+
+#date
+{
+    height: 30px;
+    width: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+}
+
+#time
+{
+    height: 30px;
+    width: auto;
+   border-radius: 10px;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+}
+h1
+{
+    text-transform: capitalize;
+    font-size: 40px;
+}
+    
+}
+
+
+
+@media(min-width:400px) and (max-width: 500px)
+{
+
+#box1
+{
+    background-color:aqua;
+    height: 450px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    border:3px  solid black;
+}   
+
+#date
+{
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 22px;
+    text-align: center;
+}
+
+#time
+{
+    height: auto;
+    width: auto;
+   border-radius: 10px;
+    border: 2px solid black;
+    font-size: 22px;
+    text-align: center;
+}
+h1
+{
+    text-transform: capitalize;
+    font-size: auto;
+}
+    
+}
+
+
+@media(min-width:500px) and (max-width: 600px)
+{
+
+#box1
+{
+    background-color:aqua;
+    height: 450px;
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    border:3px  solid black;
+}   
+
+#date
+{
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 30px;
+    text-align: center;
+}
+
+#time
+{
+    height: auto;
+    width: auto;
+   border-radius: 10px;
+    border: 2px solid black;
+    font-size: 30px;
+    text-align: center;
+}
+h1
+{
+    text-transform: capitalize;
+    font-size: auto;
+}
+    
+}
+
+
+@media(min-width:600px) and (max-width: 950px)
+{
+
+#box1
+{
+    background-color:aqua;
+    height: 450px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    border:3px  solid black;
+}   
+
+#date
+{
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 30px;
+    text-align: center;
+}
+
+#time
+{
+    height: auto;
+    width: auto;
+   border-radius: 10px;
+    border: 2px solid black;
+    font-size: 30px;
+    text-align: center;
+}
+h1
+{
+    text-transform: capitalize;
+    font-size: auto;
+}
+    
+}
+
+@media(min-width:960px) and  (max-width: 1500px)
+{
+#box1
+{
+    background-color: aqua;
+    height: 450px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    border:3px  solid black;
+}   
+
+#date
+{
+    height: 80px;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 40px;
+    text-align: center;
+}
+
+#time
+{
+    height: 80px;
+    width: 400px;
+   border-radius: 10px;
+    border: 2px solid black;
+    font-size: 40px;
+    text-align: center;
+}
+h1
+{
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+}
